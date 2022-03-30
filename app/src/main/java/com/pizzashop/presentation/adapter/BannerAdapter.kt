@@ -11,9 +11,10 @@ import androidx.recyclerview.widget.RecyclerView
 import com.pizzashop.R
 import kotlinx.android.synthetic.main.banner_item.view.*
 
-class BannerAdapter(private val context: Context): ListAdapter<Int, BannerAdapter.BannerViewHolder>(
-    DiffUtilCallback()
-) {
+class BannerAdapter(private val context: Context) :
+    ListAdapter<Int, BannerAdapter.BannerViewHolder>(
+        DiffUtilCallback()
+    ) {
     inner class BannerViewHolder(itemView: View) : RecyclerView.ViewHolder(itemView)
 
     override fun onCreateViewHolder(
@@ -36,7 +37,7 @@ class BannerAdapter(private val context: Context): ListAdapter<Int, BannerAdapte
         holder.itemView.cBanner.setImageDrawable(bImage)
     }
 
-        class DiffUtilCallback : DiffUtil.ItemCallback<Int>() {
+    class DiffUtilCallback : DiffUtil.ItemCallback<Int>() {
         override fun areItemsTheSame(oldItem: Int, newItem: Int): Boolean {
             return oldItem == newItem
         }
