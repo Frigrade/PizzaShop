@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">PizzaShop</string>
+    <string name="default_city_name">Москва</string>
+    <string name="menu">Меню</string>
+    <string name="profile">Профиль</string>
+    <string name="basket">Корзина</string>
+</resources>

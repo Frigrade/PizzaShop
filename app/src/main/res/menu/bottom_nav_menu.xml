@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item  android:id="@+id/newPizzaFragment"
+        android:title="@string/menu"
+        android:icon="@drawable/ic_food"/>
+
+    <item android:id="@+id/savedNewsFragment"
+        android:title="@string/profile"
+        android:icon="@drawable/ic_profile" />
+
+    <item android:id="@+id/searchNewsFragment"
+        android:title="@string/basket"
+        android:icon="@drawable/ic_basket"/>
+
+</menu>

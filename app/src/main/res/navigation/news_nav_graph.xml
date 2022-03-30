@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/news_nav_graph"
+    app:startDestination="@id/newPizzaFragment">
+    <fragment
+        android:id="@+id/breakingNewsFragment"
+        android:name="com.pizzashop.ui.fragments.NewPizzaFragment"
+        android:label="BreakingNewsFragment">
+    </fragment>
+</navigation>
+
